@@ -26,6 +26,7 @@ if level_fliter == 'low':
     df2 = df1[df.median_income <= 2.5]
 elif level_fliter == 'medium':
     df2 = df1[df.median_income <= 4.5]
+    df2 = df1[df.median_income >= 2.5]
 elif level_fliter == 'high':
     df2 = df1[df.median_income > 4.5]
     
